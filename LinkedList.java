@@ -123,16 +123,7 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
         return length;// returns the length of the array
     }
 
-    /**
-     * Sort the elements of the list in ascending order using insertion, selection,
-     * or bubble sort.
-     * If isSorted is true, do NOT re-sort.
-     * Hint: Since T extends Comparable, you will find it useful
-     * to use the public int compareTo(T other) method.
-     * Updates isSorted accordingly.
-     *
-     * @return
-     */
+  
     @Override
     public void sort() {
         if (this.isSorted == false) {// if it already sorted it does not run
