@@ -83,9 +83,7 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
      * is null or not found in the list, return -1. If isSorted is
      * true, uses the ordering of the list to increase the efficiency
      * of the search.
-     *
-     * @param element element to be found in the list.
-     * @return first index of the element in the list.
+     
      */
     @Override
     public int indexOf(T element) {
