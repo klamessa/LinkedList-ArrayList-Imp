@@ -156,8 +156,6 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
      * contiguous storage. Must check to see if the list is sorted after removal
      * of the element at the given index and updates isSorted accordingly.
      *
-     * @param index position to remove from the list.
-     * @return the removed element.
      */
     @Override
     public T remove(int index) {
